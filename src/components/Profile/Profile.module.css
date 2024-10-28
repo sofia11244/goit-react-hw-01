@@ -64,7 +64,7 @@ body{
     border-width: 1.5px 0 0 0;
   }
   .status:nth-child(2){
-    border-width: 1.5px 1.5px 0 1.5px  ;
+    border-width: 1.5px 1.5px 0 1.5px;
 
   }
   .status:last-child{
