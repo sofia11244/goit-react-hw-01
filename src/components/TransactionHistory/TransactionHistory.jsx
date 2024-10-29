@@ -5,20 +5,20 @@ import styles from './transactionHistory.module.css';
 const TransactionHistory = ({ items }) => {
   return (
     <table className={styles.transactionTable}>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+      <thead  className={styles.thead}>
+        <tr  className={styles.tr}>
+          <th  className={styles.type}>Type</th>
+          <th  className={styles.amount}>Amount</th>
+          <th  className={styles.currency}>Currency</th>
         </tr>
       </thead>
 
-      <tbody>
+      <tbody className={styles.tbody}>
       {items.map(({ id, type, amount, currency }) => (
-          <tr key={id}>
-            <td>{type}</td> 
-            <td>{amount}</td>
-            <td>{currency}</td>
+          <tr className={styles.id} key={id}>
+            <td className={styles.typeData}>{type}</td> 
+            <td className={styles.amountData}>{amount}</td>
+            <td className={styles.currencyData}>{currency}</td>
           </tr> 
         ))}
       </tbody>

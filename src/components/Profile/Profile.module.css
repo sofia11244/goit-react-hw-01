@@ -7,26 +7,22 @@ body{
     border-width: 1.5px;
     border-color:black;
     border-style: solid;
-    padding: 10px;
-    background-color: rgb(235, 235, 235);
+    background-color:rgb(250, 250, 250);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px 0 0 0;
     text-align: center;
-    width: 200px;
-
+    max-width: 500px;
 }
   .avatar {
-    width: 60px;
-    height: 60px;
+    width: 50%;
     border-radius: 50%;
-    margin-bottom: 8px;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(42, 42, 42);
   }
   
   .username {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: bold;
     color: #333;
     padding: 10px;
@@ -35,9 +31,9 @@ body{
   
   .tag,
   .location {
-    color: rgb(136, 136, 136);
-    font-size: 12px;
+    color: rgb(144, 144, 144);
     margin: 0 0 6px 0;
+    letter-spacing: 1px;
   }
   
   .stats {
@@ -46,8 +42,7 @@ body{
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: rgb(189, 189, 189);
-
+    background-color: rgb(211, 211, 211);
   }
   
   .status {
@@ -76,14 +71,15 @@ body{
   .likes {
     padding: 10px 0 0 0;
     display: block;
-    font-size: 11px;
+    letter-spacing: 1px;
+
   }
   
   .follower,
   .view,
   .like {
     padding: 5px 0 5px 0;
-    font-size: 11px;
     font-weight: bold;
+    letter-spacing: 1px;
   }
   
