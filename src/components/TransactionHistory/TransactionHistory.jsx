@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import styles from './transactionHistory.module.css';
 
+// eslint-disable-next-line react-refresh/only-export-components
 const TransactionHistory = ({ items }) => {
   return (
-    <table className={styles.transactionHistory}>
+    <table className={styles.transactionTable}>
       <thead>
         <tr>
           <th>Type</th>
@@ -35,3 +36,5 @@ TransactionHistory.propTypes = {
     })
   ).isRequired,
 };
+
+export default TransactionHistory;

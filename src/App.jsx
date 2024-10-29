@@ -2,13 +2,13 @@
 import './App.css';
 import userData from './data/userData.json';
 import friendsData from './data/friendsData.json';
-// import transaction from './data/transaction.json';
+import transaction from './data/transaction.json';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Profile from './components/Profile/Profile.jsx';
 import FriendList from './components/FriendList/FriendList.jsx';
-// import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx';
 
 const App = () => {
   const user = userData[0];
@@ -31,9 +31,9 @@ const App = () => {
       </div>
 
       {/* Transactions Section */}
-      {/* <div id="history-section">
-        <TransactionHistory />
-      </div> */}
+      <div id="history-section">
+        <TransactionHistory items={transaction} />
+      </div>
     </>
   );
 };
