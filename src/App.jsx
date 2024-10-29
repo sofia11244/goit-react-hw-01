@@ -7,7 +7,7 @@ import transaction from './data/transaction.json';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Profile from './components/Profile/Profile.jsx';
+import Profile from './components/Profile/Profile-editted.jsx';
 import FriendList from './components/FriendList/FriendList.jsx';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx';
 
