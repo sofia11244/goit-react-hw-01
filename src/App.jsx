@@ -1,13 +1,10 @@
-// src/App.jsx
 import './App.css';
 import userData from './data/userData.json';
 import friendsData from './data/friendsData.json';
 import transaction from './data/transaction.json';
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 
-import Profile from './components/ProfileFile/Profile.jsx';
+import Profile from './components/ProfileFile/Profile-editted.jsx';
 import FriendList from './components/FriendListFile/FriendList.jsx';
 import TransactionHistory from './components/TransactionHistoryFile/TransactionHistory.jsx';
 
@@ -39,11 +36,6 @@ const App = () => {
   );
 };
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+
 
 export default App;
