@@ -7,9 +7,9 @@ import transaction from './data/transaction.json';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Profile from './components/Profile/Profile-editted.jsx';
-import FriendList from './components/FriendList/FriendList.jsx';
-import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx';
+import Profile from './components/ProfileFile/Profile.jsx';
+import FriendList from './components/FriendListFile/FriendList.jsx';
+import TransactionHistory from './components/TransactionHistoryFile/TransactionHistory.jsx';
 
 const App = () => {
   const user = userData[0];
